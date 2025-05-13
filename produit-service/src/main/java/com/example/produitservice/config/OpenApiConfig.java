@@ -14,6 +14,6 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("Produit Service API")
                         .version("1.0")
-                        .description("API pour gérer les produits dans l'application."));
+                        .description("API produits "));
     }
 }

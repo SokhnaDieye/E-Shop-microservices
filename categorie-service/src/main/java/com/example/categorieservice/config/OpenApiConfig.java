@@ -14,6 +14,6 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("Categorie Service API")
                         .version("1.0")
-                        .description("API pour gérer les categories dans l'application."));
+                        .description("API pour les categorie"));
     }
 }
