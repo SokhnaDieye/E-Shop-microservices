@@ -17,7 +17,4 @@ public class Categorie {
     private String nom;
     private String description;
 
-    // Si on veut gérer les produits plus tard
-    // @OneToMany(mappedBy = "categorie", cascade = CascadeType.ALL)
-    // private Set<Produit> produits;
 }

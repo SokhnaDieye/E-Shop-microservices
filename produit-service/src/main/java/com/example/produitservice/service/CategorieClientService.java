@@ -11,7 +11,7 @@ public class CategorieClientService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String BASE_URL = "http://localhost:8081/api/categories"; // adapte l'URL à ton cas
+    private static final String BASE_URL = "http://localhost:8081/api/categories";
 
     public CategorieDTO getCategorieById(Long id) {
         return restTemplate.getForObject(BASE_URL + "/" + id, CategorieDTO.class);

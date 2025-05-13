@@ -57,7 +57,6 @@ public class CategorieController {
     }
 
 
-    // Méthode utilitaire pour générer les liens HATEOAS pour chaque catégorie
     private EntityModel<Categorie> toModel(Categorie c) {
         return EntityModel.of(c,
                 linkTo(methodOn(CategorieController.class).getCategorieById(c.getId())).withSelfRel(),
